@@ -25,3 +25,9 @@ setup(
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 )
+
+"""
+1. This script helps package your project, automatically detecting the Python packages and reading dependencies from requirements.txt.
+2. It removes '-e .' if present in the requirements, which allows for the editable installation of your own project.
+3. When someone runs pip install . or python setup.py install, this file will help install the project and its dependencies.
+"""
