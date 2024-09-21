@@ -1,4 +1,7 @@
 pandas
 numpy
 seaborn
--e . # -e . is used to install a Python project in editable mode.
+scikit-learn
+catboost
+xgboost
+# -e . # -e . is used to install a Python project in editable mode.
